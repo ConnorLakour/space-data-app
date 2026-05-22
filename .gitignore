@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# CDK output
+cdk.out/
+infrastructure/cdk.out/
+
+# Build output
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# CDK staging
+.cdk.staging/
+
+# Test output
+response.json
